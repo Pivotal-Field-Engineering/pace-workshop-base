@@ -3,6 +3,8 @@ theme = "hugo-theme-learn"
 
 title = "Pivotal Workshop"
 
+googleAnalytics = "UA-120591772-2"
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -31,4 +33,3 @@ languageName = "Português"
 weight = 1
 languageName = "Español"
 
-googleAnalytics = "UA-129674067-1"
