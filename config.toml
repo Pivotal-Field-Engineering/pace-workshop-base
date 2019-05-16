@@ -21,15 +21,15 @@ defaultContentLanguageInSubdir= true
 weight = 1
 languageName = "English"
 
-[Languages.fr]
-weight = 2
-languageName = "Français"
+# [Languages.fr]
+# weight = 2
+# languageName = "Français"
 
-[Languages.pt]
-weight = 2
-languageName = "Português"
+# [Languages.pt]
+# weight = 2
+# languageName = "Português"
 
-[Languages.es]
-weight = 2
-languageName = "Español"
+# [Languages.es]
+# weight = 2
+# languageName = "Español"
 
