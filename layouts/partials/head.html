@@ -15,7 +15,8 @@
 <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml">
 <link rel="canonical" href="{{ .Permalink }}">
-<link href="{{"css/theme.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
+{{ $assetBusting := not .Site.Params.disableAssetsBusting }}
+<link href="{{"css/theme.min.css" | absURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
 
 <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 {{ partial "meta/chroma.html" . -}}
