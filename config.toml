@@ -1,5 +1,5 @@
 
-theme = "hugo-theme-learn"
+theme = "hugo-theme-techdoc"
 
 title = "Pivotal Workshop"
 
@@ -7,7 +7,7 @@ googleAnalytics = "UA-120591772-2"
 
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "HTML"]
 
 [params]
 
@@ -22,14 +22,14 @@ weight = 1
 languageName = "English"
 
 [Languages.fr]
-weight = 1
+weight = 2
 languageName = "Français"
 
 [Languages.pt]
-weight = 1
+weight = 2
 languageName = "Português"
 
 [Languages.es]
-weight = 1
+weight = 2
 languageName = "Español"
 
